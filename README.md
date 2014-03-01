@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Pinger
 ======
 
@@ -18,13 +17,3 @@ How to build/run
 
   - Simply run the provided batch file (it will assume the above exists)
   - the double click the application
-
-
- 
-
-=======
-pinger
-======
-
-a GUI ping application that utilizes native windows API
->>>>>>> 4b240448a6dd1d2424283ab77348bf9219655284
