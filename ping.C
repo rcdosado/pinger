@@ -39,7 +39,7 @@ HANDLE hIcmp;
 struct hostent *s;
 HANDLE g_windowpane_handle;
 
-LPTSTR Help = "Ping v1.0 by Pedro Penduko - help\r\n" \
+LPTSTR Help = "Ping v1.0 by 0xrcd - help\r\n" \
 "------------------------------------\r\n"\
 "-This utility sends a ping packet to a target\r\n"\
 "and awaits a reply giving you the time of the\r\n"\
