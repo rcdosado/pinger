@@ -1,0 +1,106 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PINGER            ICON    DISCARDABLE     "ping.Ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PING DIALOG DISCARDABLE  0, 0, 171, 221
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MyPing"
+FONT 9, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "&Ping",IDC_PING,7,200,30,11
+    DEFPUSHBUTTON   "&Stop",IDC_CANCEL,48,200,30,11
+    DEFPUSHBUTTON   "Clo&se",IDC_CLOSE,92,200,30,11
+    DEFPUSHBUTTON   "&Help",IDC_MYHELP,132,200,30,11
+    LTEXT           "&Target",IDC_STATIC,8,12,35,10
+    COMBOBOX        IDC_ADDRESS,43,10,121,69,CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+
+    EDITTEXT        IDC_STATUS,7,78,157,115,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL | ES_READONLY 
+
+    CONTROL         "&Verbose",IDC_VERBOSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,36,40,8
+    
+    EDITTEXT        IDC_NPINGS,72,37,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Number of Pings",IDC_NUMPING,104,38,57,11
+    EDITTEXT        IDC_TTLE,72,56,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Time To Live",IDC_TTL,105,56,52,11
+	//GROUPBOX        "Send",IDC_SETTINGS,67,26,97,48
+END
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
