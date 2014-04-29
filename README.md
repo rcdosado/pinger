@@ -3,7 +3,7 @@ Pinger
 
 What is it?
 ----------
-A Windows GUI Ping application coded for learning ICMProtocol and Windows Interface
+A 32 bit Windows GUI Ping application coded for learning the ICMProtocol and Windows Interface
 
 Requirements 
 ------------
@@ -16,4 +16,4 @@ How to build/run
 ----------------
 
   - Simply run the provided batch file (it will assume the above exists)
-  - the double click the application
+  - then double click the application
